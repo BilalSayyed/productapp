@@ -15,9 +15,7 @@ import javax.sql.DataSource;
 import java.math.BigDecimal;
 
 @SpringBootApplication
-@EnableCaching
-@EnableScheduling
-public class Productapp05SpringBootCachingApplication implements CommandLineRunner {
+public class Productapp06SpringBootActuatorApplication implements CommandLineRunner {
 	@Autowired
 	private DataSource dataSource;
 	@Autowired
@@ -30,7 +28,7 @@ public class Productapp05SpringBootCachingApplication implements CommandLineRunn
 	private DataSourceConfig dataSourceConfig;
 
 	public static void main(String[] args) {
-		SpringApplication.run(Productapp05SpringBootCachingApplication.class, args);
+		SpringApplication.run(Productapp06SpringBootActuatorApplication.class, args);
 	}
 
 	@Override
