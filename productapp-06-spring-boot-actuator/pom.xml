@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bca</groupId>
-	<artifactId>productapp-04-spring-boot-caching</artifactId>
+	<artifactId>productapp-06-spring-boot-actuators</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>productapp-05-spring-boot-caching</name>
 	<description>First project for Spring Boot</description>
