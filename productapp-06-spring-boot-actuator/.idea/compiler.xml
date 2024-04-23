@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="productapp-06-spring-boot-actuators" />
+        <module name="productapp-04-data-application" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="productapp-04data" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="productapp-04-data-application" options="-parameters" />
+      <module name="productapp-04data" options="-parameters" />
+      <module name="productapp-06-spring-boot-actuators" options="-parameters" />
+    </option>
+  </component>
+</project>
